@@ -1,0 +1,86 @@
+body
+{
+    background-color:  #ec008c;  
+    background:-webkit-linear-gradient(to right, #fc6767, #ec008c);  
+    background:linear-gradient(to right, #fc6767, #ec008c); 
+    
+}
+.div
+{
+    background-color: #f7f7f7;
+    max-width: 600px;
+    margin: 0 auto;
+    color: black;
+    margin-top: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+ul
+{
+    font-size:  30px ;
+    color: rgb(0,0,0);
+    margin: 0%;
+    padding: 0%;
+
+    
+    
+}
+li
+{
+    background-color: white;
+    background-size: cover;
+    list-style: none;
+    line-height: 50px;
+    cursor: pointer;
+    
+}
+li:nth-child(2n)
+{
+    background-color:#f7f7f7;
+    background-size: cover;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 40px;
+    border: none;
+    box-shadow:0 0 3px rgba(0,0,0,0.1);
+    font-size: 25px;
+    padding-left: 5px;
+
+}
+input:focus
+{
+    background: #f7f7f7;
+}
+h1
+{
+    background-color: skyblue;
+    margin: 0%;
+    padding: 0%;
+    line-height: 50px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+ .fa-plus
+ {
+     float: right;
+     padding-top: 8px;
+ }
+ .fa-trash
+{
+    background-size: cover;
+    padding: 0%;
+    margin: 0%;
+    color:red;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 20px;
+    display: none;
+}
+span{
+    color: black;
+    transition: 2s;
+    width: 0px;
+}
